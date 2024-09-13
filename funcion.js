@@ -1,8 +1,7 @@
-/*const slider = [...document.querySelectorAll('.imgs')];
+const slider = [...document.querySelectorAll('.imgs')];
 const currentElement = Number(document.querySelector('.slider_show').dataset.id);
 let value;
 value = currentElement 
-
 const options={
     root: null,
     rootMargin: '0px',
@@ -17,26 +16,22 @@ console.log.toString(observar.value)
 
 
 function callback(entries){
-    console.log('Iniciando...')
 
-    for( let time = 0; time < 0; time++ && entries.isIntersecting){
-        position(value)
-        if(time == 5){
-            time = 0;
-        }
-            value++
-    }
+setInterval(slider_show, 5000)
+
 }
 
 
-function position(channge){
-    console.log(value)
-           for(value === 0; value == slider.length+1;){
+function slider_show(){
+    console.log('Iniciando...')
+     for(value === 0; value == slider.length+1;){
         value = value === 0 ? slider.length : 0;
+        console.log("listo")
+        value++
     }
     slider[currentElement-1].classList.toggle('slider_show');
 }
-*/
+
 
 let listElemts = document.querySelectorAll('.list-base');
 

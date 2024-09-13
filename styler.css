@@ -162,7 +162,7 @@ header{
     width: 90%;
     font-family: "EB Garamond", serif;
     font-weight: 300;
-    font-size: 1.5vw;  
+    font-size: 1.8vw;  
     margin-left: 5%;
 }
 
@@ -260,14 +260,14 @@ a{
 
     .imagenes-moneda{
         width: 30%;
-        margin: 15% auto auto auto;
+        margin: 30% auto auto auto;
     }
 
     .pre-perfil{
         font-family: "Quicksand", sans-serif;
         font-weight: 300;
         margin: auto;
-        margin-top: 0;
+        margin-top: 30%;
     }
 
     .saludo{
@@ -301,11 +301,11 @@ a{
     }
 
     .introSkills{
-        font-size: 2.5vw;  
+        font-size: 3.5vw;  
+        margin-bottom: 10%;
     }
 
     li {
-        margin-left: 15%;
         font-size: 2.3vw;
     }
 
