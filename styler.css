@@ -20,7 +20,7 @@ header{
     background: #000000;
     opacity: 95%;
     width: 100%;
-    height: 70vh;
+    height: 55vh;
     overflow: hidden;
     box-shadow: 0px 5px 10px #000;
 }
@@ -33,10 +33,9 @@ header{
 }
 
 .imgs{
-    position: inherit;
-    min-width: 90%;
+    min-width: 100%;
     min-height: 55vh;
-    margin: auto 5%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -71,18 +70,21 @@ header{
 
 
 .title{
-    margin-top: 5vh;
-    height: 44vh;
+    height: 45vh;
     display: flex;
     flex-wrap: nowrap;
     color:#000;
+    align-items: center;
 }
 
 .imagenes-moneda{
     position: relative;
-    width: 15%;
-    margin: 4% 0 0 5%;
+    width: 20%;
+    height: 90%;
     transition: transform 2s;
+    margin-left: 5%;
+    margin-top: 6%;
+
 }
 
 .face{
@@ -124,9 +126,7 @@ header{
 .pre-perfil{
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .saludo{
@@ -147,11 +147,11 @@ header{
 
 .desarrollo{
     width: 100%;
-    height: 58vh;
+    height: 60vh;
+    padding-top: 1%;
 }
 
 .subtitle{
-    margin-top: 2% ;
     font-family: "EB Garamond", serif;
     font-weight: 600;
     font-size: 3vw;  
@@ -178,7 +178,7 @@ header{
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
     font-size: 1.2vw;  
-    padding-left:10% ;
+    padding-left: 5%;
 }
 
 .tituloSkills{
@@ -189,17 +189,17 @@ header{
 }
 
 ul{
-    margin: 5%;   
+    margin-left: 10%;   
 }
 
 li {
     margin-top: 2%;
-    margin-left: 10%;
     list-style:none;
     display: flex;
-    align-items: center;
-    gap: 3px;
+    align-items:center;
+    gap: 5px;
     cursor: pointer;
+    font-size: 1.5vw;
 }
 
 a{
@@ -222,9 +222,6 @@ a{
     overflow: hidden;
     border-left: 2px solid #000;
     border-radius: 5px;
-}
-
-.sub-carpeta{
     cursor: pointer;
     transition: height .3s;
     height: 0px;
@@ -236,23 +233,23 @@ a{
 /**********Header Media Query*************/
 /*****************************************/
 
-@media only screen and (width < 999px) {
+@media only screen and (width < 599px) {
+
+    header{
+        height: 100vh;     
+    }
 
     .imgs{
-        min-height: 45vh;
         grid-template-columns: 1fr 1fr;
     }
     
     .a{
         display: none;
     }
-    .slider{
-        gap: 0px;
-    }
+
 
     .title{
-        margin-top: 1vh;
-        height: 44vh;
+        margin-top: 5vh;
         display: grid;
         grid-template-columns: 1fr;
         color:#000;
@@ -260,41 +257,42 @@ a{
 
     .imagenes-moneda{
         width: 30%;
-        margin: 30% auto auto auto;
+        margin: 3% auto;
+
     }
 
     .pre-perfil{
         font-family: "Quicksand", sans-serif;
         font-weight: 300;
         margin: auto;
-        margin-top: 30%;
+        margin-top: 15%;
     }
 
     .saludo{
-        font-size: 6vw;
+        font-size: 7vw;
     }
     
     .intro{
-        font-size: 5vw;
-        margin-left: 5px;
+        font-size: 6vw;
+        margin-left: 15px;
     }
 
     .subtitle{
         font-family: "EB Garamond", serif;
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     
     .skills{
         color: #1f1f1f;
         font-size: 2vw;
-        text-align: center;
     }
 
     .listaSkill{
         grid-template-columns: 1fr 1fr;
     }
+    
     
     .tituloSkills{
         font-size: 4vw;
@@ -315,7 +313,7 @@ a{
 
 
 }
-
+/*
 @media only screen and (width < 676px) {
 
     .imgs{
