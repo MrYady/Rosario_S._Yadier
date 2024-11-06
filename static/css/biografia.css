@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f3f4;
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+}
+
+.cont h1{
+    font-size: 5vw;
+}
+.cont p{
+    margin-top: 1%;
+}
+
+.cont i{
+    transition: transform 5s;
+    animation: rotar 5s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transfrom: rotateZ(306deg)
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
