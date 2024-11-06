@@ -447,7 +447,7 @@ header{
 @media only screen and (width < 599px) {
 
     .navs a{
-        font-size: 5vw;
+        font-size: 20px;
     }
 
     .cont h1{
