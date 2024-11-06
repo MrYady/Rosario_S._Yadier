@@ -349,13 +349,14 @@ header{
 }
 
 .smsflash h2{
-    font-size: 30px; 
+    font-size: 2.5vw; 
     color: #bbbbbe;  
     font-family: "Fira Code", serif;
 }
 
 .smsflash p{
     width: 90%;
+    font-size: 1vw;
     margin: 10px auto;  
     color: #a8adc4;  
 }
@@ -443,6 +444,14 @@ header{
 /*****************************************/
 
 @media only screen and (width < 599px) {
+
+    .smsflash h2{
+        font-size: 6vw;
+    }
+
+    .smsflash p{
+        font-size: 3vw;
+    }
 
     header{
         height: 160vh;
