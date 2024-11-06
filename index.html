@@ -1,159 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link referencias -->
     <link rel="stylesheet" href="styler.css">
-    <link rel="schorcut icon" type="image/x-icon" href="imagenes/IMG_5057.JPG">
-
-    <!-- txt_Stily -->
+    <link rel="schorcut icon" type="image/x-icon" href="static/imagenes/mandoprosinfondo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!--------------->
+    <!-- txt_Style-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-            </style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
     <!--------------->
 
     <title>Yadier S. Rosario</title>
 </head>
 <body>
-    <header>
-            <div class="cont-slider">
-                    <div class="slider" id="slider">
-                        <section class="imgs slider_show" data-id="1">
-                            <img class="img-slider a" src="imagenes/mandocensillo.png" alt="digital art">
-                            <img class="img-slider b" src="imagenes/mandomedio.png" alt="digital art">
-                            <img class="img-slider c" src="imagenes/mandonpro.png" alt="digital art">
-                        </section>
-                        <section class="imgs" data-id="2">
-                            <img class="img-slider a" src="imagenes/rubik.png" alt="digital art"> 
-                            <img class="img-slider b" src="imagenes/pelota.png" alt="digital art">
-                            <img class="img-slider c" src="imagenes/lago-cielo-prueba.png" alt="">
-                        </section>
-                    </div>
+    <nav class="navegacion">
+        <ul class="itemsNavs">
+            <li class="navs"><a href="#home" title="home"><i class="fa-solid fa-house items"></i></a></li>
+            <li class="navs"><a href="#sobremi" title="sobremi"><i class="fa-solid fa-user items"></i></a></li>
+            <li class="navs"><a href="#proyectos" title="project"><i class="fa-solid fa-folder items"></i></a></li>
+            <li class="navs"><a href="#galeria" title="galeria"><i class="fa-solid fa-image items"></i></a></li>
+            <li class="navs"><a href="#comunication" title="comunication"><i class="fa-solid fa-address-book items"></i></a></li>
+        </ul>
+    </nav>
+    <header id="home" class="area">
+        <div class="cont-slider viewslider">
+            <div class="slider" id="slider">
+                <section class="imgs slider_show" data-id="1">
+                    <img class="img-slider a" src="static/imagenes/mandocensillo.png" alt="digital art">
+                    <img class="img-slider b" src="static/imagenes/mandomedio.png" alt="digital art">
+                    <img class="img-slider c" src="static/imagenes/mandonpro.png" alt="digital art">
+                </section>
+                <section class="imgs" data-id="2">
+                    <img class="img-slider a" src="static/imagenes/rubik.png" alt="digital art">
+                    <img class="img-slider b" src="static/imagenes/pelota.png" alt="digital art">
+                    <img class="img-slider c" src="static/imagenes/lago-cielo-prueba.png" alt="">
+                </section>
+            </div>
+        </div>
+        </div>
+        <div class="area">
+        <div class="title" id="sobremi">
+            <div class="imagenes-moneda">
+                <div class="face front">
+                    <img class="img-perfil" src="static/imagenes/rick.gif" alt="">
+                </div>
+                <div class="face back">
+                    <img class="img-perfil" src="static/imagenes/me2.png" alt="">
                 </div>
             </div>
-            <div class="title">
-                <div class="imagenes-moneda">
-                    <div class="face front">
-                        <img class="img-perfil" src="imagenes/rick.gif" alt="">
-                    </div>
-                    <div class="face back">
-                        <img class="img-perfil" src="imagenes/me2.png" alt="">
-                    </div>
-                </div>
-                <div class="pre-perfil">
-                    <div class="saludo">Hi,</div>
-                    <div class="intro">I'm Yadier Santana</div>
-                    <div class="skills">developer - designer - data analyst...+ </div> 
-                </div>
+            <div class="pre-perfil">
+                <div class="saludo">Hi,</div>
+                <div class="intro">I'm Yadier Santana</div>
+                <div class="skills">developer - data analyst...+ </div>
             </div>
+        </div>
+        <div class="desarrollo">
+            <div class="listaSkill">
+                static void Main(string[] args){
+                <br>
+                &nbsp;&nbsp;&nbsp;private static string skill(){
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name = yadier
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (name == developer.web){
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.Write("full stack");
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else (name == developer.mobile){
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.Write("android studio");
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.Write("C#.net");
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                <br>
+                &nbsp;&nbsp;&nbsp;}
+                <br>
+                }
+            </div>
+            <div class="precentacion">
+                <h2 class="subtitle">Un poco de mi</h2>
+                <p class="introSkills">
+                    When I entered the world of computing in high school, I became passionate about this huge world,
+                    which
+                    led me to research and learn more and more. But I did not stay only in the programming area and
+                    delved
+                    into other areas such as graphic design, digital drawing, data science and I continue to seek
+                    knowledge
+                    in other areas, such as artificial intelligence and mechatronics.<a
+                        href="static/html/biografia.html" class="biografia">Más...</a></p>
+            </div>
+        </div>
+        </div>
+    </div>
     </header>
-    <div class="desarrollo">
-        <h2 class="subtitle">Skills</h2>
-        <p class="introSkills">
-            When I entered the world of computing in high school, I became passionate about this huge world, which led me to research and learn more and more. But I did not stay only in the programming area and delved into other areas such as graphic design, digital drawing, data science and I continue to seek knowledge in other areas, such as artificial intelligence and mechatronics.</p>
-        <div class="listaSkill">
-            <div class="skill">
-                <h3 class="tituloSkills">developer</h3>
-                <ul>
-                    <li class="list-base progre"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">APP Web<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta">
-                        <ul>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">CSS</a></li>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Java Script</a></li>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Python</a></li>
-                        </ul>
-                    </div>
-                    <li class=" list-base progre"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">escritorio<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_escritorio">
-                        <ul>
-                            <li class="sub_code-c#"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">C#.Net</a></li>
-                        </ul>
-                    </div>
-                    <li class=" list-base progre"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">APP mobile<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_mobile ">
-                        <ul>
-                            <li class="sub_code-mobile"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Android Studio(Java)</a></li>
-                            <li class="sub_code-mobile"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Android Studio(kotlin)</a></li>
-                        </ul>
-                    </div>
-                    <li class=" list-base progre"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">Modelos IA<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_ia ">
-                        <ul>
-                            <li class="sub_code-ia"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Python</a></li>
-                            <li class="sub_code-ia"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Machine learning</a></li>
-                            <li class="sub_code-ia"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">deep learning</a></li>
-                        </ul>
-                    </div>
-                </ul>   
-            </div>
-            <div class="skill">
-                <h3 class="tituloSkills">data analyst</h3>
-                <ul>
-                    <li class=" list-base DB"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">Base de Datos<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class=" sub-carpeta code_DB">
-                        <ul>
-                            <li class="sub_code-DB"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">SQL server</a></li>
-                            <li class="sub_code-DB"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">php my Admin</a></li>
-                            <li class="sub_code-DB"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">SQl workbench</a></li>
-                            <li class="sub_code-DB"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">MongoDB</a></li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>
-            <div class="skill">
-                <h3 class="tituloSkills">File management</h3>
-                <ul>
-                    <li class=" list-base office"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">Office<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_office ">
-                        <ul>
-                            <li class="sub_code-office"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Word</a></li>
-                            <li class="sub_code-office"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">power point</a></li>
-                            <li class="sub_code-office"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Excel</a></li>
-                            <li class="sub_code-office"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">power BI</a></li>
-                        </ul>
-                    </div>
-                    <li class="list-base office"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">SAS<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_sas ">
-                        <ul>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">SAS Studio</a></li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>
-            <div class="skill">
-                <h3 class="tituloSkills">graphic designer</h3>
-                <ul>
-                    <li class="list-base desiner"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">ilustraciones<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_designer ">
-                        <ul>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Photoshop</a></li>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Illustrator</a></li>
-                        </ul>
-                    </div>
-                    <li class="list-base desiner"><img src="icon/folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-">Arte digital<img src="icon/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="sub-clik"  alt=""></li>
-                    <div class="sub-carpeta code_art ">
-                        <ul>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Krita</a></li>
-                            <li class="sub_code-web"><img src="icon/draft_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="img-"><a href="">Pixel art</a></li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>  
-        </div>  
+    <div class="proyectos cont area" id="proyectos">
+        <h1>Proyectos</h1>
+        <p class="proced">En produción... <i class="fa-solid fa-gear"></i></p>
     </div>
-    <div class="Sobre mi">
+    <div class="galeria cont area" id="galeria">
+        <h1>Galeria</h1>
+        <p class="proced">En produción... <i class="fa-solid fa-gear"></i></p>
     </div>
-                     
+    <div class="comunication area" id="comunication">
+        <div class="top-left">
+            <div class="smsflash">
+                <h2>¡Póngase en contecto!</h2>
+                <p>Si tienes una idea y quieres mis servicios, o solo quieres conversar, aquí te dejo mis redes</p>
+                    <div class="curri">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <a class="fileCurriculum" href="static/archivo/Rosario S. Yadier.pdf"
+                            download="Rosario S. Yadier Curriculum.pdf">descargar Curriculum</a>
+                    </div>
+            </div>
 
-    </div>
-    <div class="proyectos">
-
-    </div>
-    <div class="comunication">
-        
+        </div>
+        <div class="bottom-right">
+            <ul class="redes">
+                <li class="red ig"><a href="https://www.instagram.com/un_poco_de_mucho__/?utm_source=ig_web_button_share_sheet" title="instagram" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="red in"><a href="www.linkedin.com/in/yadier-santana-rosario-5b223532b" title="linkedin" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="red mail"><a href="mailto:santanarosarioyadier@gmail.com? Subject=Saludos& body=hola..." title="Email"  target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a></li>
+                <li class="red git"><a href="https://github.com/MrYady" title="github" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            <div class="disco">
+                <i class="fa-solid fa-compact-disc"></i>
+            </div>
+            <div class="copy">
+                <i class="fa-solid fa-copyright"></i>
+                <p>2024 Yadier S. Rosario</p>
+            </div>
+        </div>
     </div>
 </body>
 <script src="funcion.js"></script>
+
 </html>
