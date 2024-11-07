@@ -104,7 +104,7 @@ body{
 
 header{
     width: 100%;
-    height: 190vh;
+    height: 170vh;
     box-shadow: 0px 5px 5px #0000007c;
 }
 
@@ -236,10 +236,30 @@ header{
 }
 
 .skills{
+    animation: animationskill 2.5s steps(35), transparents .5s step-end infinite alternate;
+    width: 50%;
+    margin: auto auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid #000;
     color: #1f1f1f;
-    font-size: 1.1vw;
-    text-align: center;
+    font-size: 1.2vw;
+    text-align: right;
 }
+
+@keyframes animationskill{
+    from{
+        width: 0px;
+    }
+
+}
+
+@keyframes transparents{
+    50%{
+        border-color: transparent;
+    }
+}
+
 
 
 .desarrollo{
@@ -249,39 +269,42 @@ header{
 }
 
 .precentacion{
-    width: 70%;
+    width: 50%;
+    position: absolute;
+    background-color: #071678c9;
+    color: #eaeaff;
+    padding: 1%;
+    margin: 15% 0px 0px 35%; 
 }
 
 .subtitle{
     font-family: "EB Garamond", serif;
     font-weight: 600;
     font-size: 3vw;
-    margin-top: 7%;  
 }
 
 
 .introSkills{
-    width: 80%;
-    padding: 10px;
-    margin: 1.3% auto;
+    margin: 1% auto;
     font-family: "EB Garamond", serif;
-    font-weight: 300;
     font-size: 1.5vw;
 }
 
 .listaSkill{
-    font-family: monospace;
-    background-color: #e2e2e2ee;
-    width: 65%;
-    height: auto;
-    font-size: 1.7vw;
+    font-family: "Source Code Pro", serif;
+    background-color: #000;
+    color: #fff;
+    border: 5px #061368;
+    border-style:inset;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1vw;
     margin: 1% 3%;
     padding: 1%;
     border-radius: 2px;
     box-shadow: 3px 3px 5px #0000007c;
+    overflow: hidden;
 }
-
-
 
 /*****************************************/
 /************   Proyectos    *************/
@@ -466,7 +489,7 @@ header{
     }
 
     header{
-        height: 160vh;
+        height: 140vh;
     }
 
     .navegacion{
@@ -508,8 +531,8 @@ header{
     }
 
     .imagenes-moneda{
-        width: 30%;
-        margin: 3% auto;
+        width: 50%;
+        margin: 0 auto;
 
     }
 
@@ -517,37 +540,43 @@ header{
         font-family: "Quicksand", sans-serif;
         font-weight: 300;
         margin: auto;
-        margin-top: 15%;
+        margin-top: 25%;
     }
 
     .saludo{
-        font-size: 7vw;
+        font-size: 9vw;
     }
     
     .intro{
-        font-size: 6vw;
+        font-size: 7vw;
         margin-left: 15px;
     }
+    .skills{
+        font-size: 3vw;
+        width: 130px;
+    }
+
 
     .desarrollo{
         flex-direction: column;
         align-items: center;
-
+        margin-top: 15%;
     }
 
     .listaSkill{
-        order: 1;
         font-size: 90%;
+        font-size: 1.6vw;
     }
 
     .precentacion{
-        width: 90%;
+        width: 70%;
+        margin: 30% 0px 0px 25%; 
+
+
     }
 
     .precentacion p{
-        order: 0;
         font-size: 3vw;
-
     }
 
 }
